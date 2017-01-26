@@ -17,6 +17,8 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
         alc.setOnClickListener(this);
         Button g = (Button) findViewById(R.id.g);
         g.setOnClickListener(this);
+        Button frag = (Button) findViewById(R.id.frag);
+        frag.setOnClickListener(this);
     }
 
     @Override
