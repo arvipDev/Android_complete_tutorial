@@ -34,7 +34,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
                 break;
 
             case(R.id.frag):
-                Intent frag_intent = new Intent("android.intent.action.GESTURE");
+                Intent frag_intent = new Intent("android.intent.action.FRAGMENT");
                 startActivity(frag_intent);
                 break;
 
