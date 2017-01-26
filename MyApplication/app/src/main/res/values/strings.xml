@@ -22,4 +22,6 @@
     <string name="two">Two</string>
     <string name="three">Three</string>
     <string name="overflow_menu">Overflow Menu</string>
+    <string name="animate">Animate</string>
+    <string name="animation">Animation</string>
 </resources>

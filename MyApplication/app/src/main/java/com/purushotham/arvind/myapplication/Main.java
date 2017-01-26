@@ -21,6 +21,8 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
         frag.setOnClickListener(this);
         Button ofm = (Button) findViewById(R.id.ofm);
         ofm.setOnClickListener(this);
+        Button ani = (Button) findViewById(R.id.ani);
+        ani.setOnClickListener(this);
     }
 
     @Override
@@ -45,6 +47,11 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
             case (R.id.ofm):
                 Intent ofm_intent = new Intent("android.intent.action.OFMENU");
                 startActivity(ofm_intent);
+                break;
+
+            case (R.id.ani):
+                Intent ani_intent = new Intent("android.intent.action.ANIMATE");
+                startActivity(ani_intent);
                 break;
 
         }
