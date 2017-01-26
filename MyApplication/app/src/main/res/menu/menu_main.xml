@@ -2,9 +2,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.purushotham.arvind.myapplication.ActivityLifeCycle">
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/one"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/one"/>
+        <item
+            android:id="@+id/two"
+            android:orderInCategory="2"
+            app:showAsAction="never"
+            android:title="@string/two"/>
+        <item
+            android:id="@+id/three"
+            android:orderInCategory="3"
+            app:showAsAction="never"
+            android:title="@string/three"/>
+
+    </group>
 </menu>

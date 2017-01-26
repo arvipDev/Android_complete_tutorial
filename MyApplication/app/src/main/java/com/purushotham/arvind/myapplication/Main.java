@@ -19,6 +19,8 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
         g.setOnClickListener(this);
         Button frag = (Button) findViewById(R.id.frag);
         frag.setOnClickListener(this);
+        Button ofm = (Button) findViewById(R.id.ofm);
+        ofm.setOnClickListener(this);
     }
 
     @Override
@@ -38,6 +40,11 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
             case (R.id.frag):
                 Intent f_intent = new Intent("android.intent.action.FRAGMENT");
                 startActivity(f_intent);
+                break;
+
+            case (R.id.ofm):
+                Intent ofm_intent = new Intent("android.intent.action.OFMENU");
+                startActivity(ofm_intent);
                 break;
 
         }
