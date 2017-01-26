@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/black"
+    tools:context="com.purushotham.arvind.myapplication.Main">
+
+    <Button
+        android:text="@string/life_cycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:id="@+id/alc" />
+
+    <Button
+        android:text="@string/gesture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/alc"
+        android:layout_toRightOf="@+id/alc"
+        android:layout_toEndOf="@+id/alc"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:id="@+id/g" />
+
+    <Button
+        android:text="@string/fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/g"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        android:id="@+id/frag" />
+</RelativeLayout>

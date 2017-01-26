@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="but_">Hello</string>
+    <string name="tv_">gestures</string>
+    <string name="title_activity_two_fragment">TwoFragment</string>
+    <string name="click_here">click here</string>
+    <string name="life_cycle">Life Cycle</string>
+    <string name="gesture">gesture</string>
+    <string name="fragment">fragment</string>
+</resources>
