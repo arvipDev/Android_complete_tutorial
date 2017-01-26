@@ -8,4 +8,13 @@
     <string name="life_cycle">Life Cycle</string>
     <string name="gesture">gesture</string>
     <string name="fragment">fragment</string>
+
+    <string-array name="workout_spinner">
+        <item>Select item...</item>
+        <item>Chest</item>
+        <item>Biseps</item>
+        <item>Abs</item>
+        <item>Legs</item>
+        <item>Shoulder</item>
+    </string-array>
 </resources>
