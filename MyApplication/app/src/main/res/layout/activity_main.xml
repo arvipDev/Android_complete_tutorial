@@ -61,4 +61,14 @@
         android:layout_marginLeft="26dp"
         android:layout_marginStart="26dp"
         android:id="@+id/ani" />
+
+    <Button
+        android:text="@string/broadcast_and_receive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/brd"
+        android:layout_below="@+id/ofm"
+        android:layout_alignLeft="@+id/ofm"
+        android:layout_alignStart="@+id/ofm" />
 </RelativeLayout>

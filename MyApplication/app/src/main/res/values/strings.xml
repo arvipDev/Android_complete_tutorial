@@ -24,4 +24,6 @@
     <string name="overflow_menu">Overflow Menu</string>
     <string name="animate">Animate</string>
     <string name="animation">Animation</string>
+    <string name="broadcast">Broadcast</string>
+    <string name="broadcast_and_receive">Broadcast and Receive</string>
 </resources>
